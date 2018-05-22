@@ -1,12 +1,12 @@
 # My Torify
 
-Tor Iptables script is an anonymizer that sets up iptables and tor to route all services and traffic including DNS through the Tor network.
+My Torify is a TrayIcon GUI to [toriptables2](https://github.com/ruped24/tor_ip_switcher)
 
 #### Dependencies:
-tor
-wxpython
+* tor
+* wxpython
 
-#### Usage
+#### Usage (run as superuser)
 ```python
 tray.py
 ```
