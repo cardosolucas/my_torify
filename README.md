@@ -1,6 +1,6 @@
 # My Torify
 
-My Torify is a TrayIcon GUI to [toriptables2](https://github.com/ruped24/toriptables2)
+My Torify is a trayicon interface for [toriptables2](https://github.com/ruped24/toriptables2).
 
 #### Dependencies:
 * tor
