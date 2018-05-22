@@ -22,8 +22,6 @@ class TaskBarIcon(wx.TaskBarIcon):
         menu = wx.Menu()
         create_menu_item(menu, 'Start/Stop torify', self.on_left_down)
         menu.AppendSeparator()
-        create_menu_item(menu, 'About', self.on_hello)
-        menu.AppendSeparator()
         create_menu_item(menu, 'Exit', self.on_exit)
         return menu
 
@@ -38,9 +36,6 @@ class TaskBarIcon(wx.TaskBarIcon):
         else:
             os.system("xterm -e \"sudo python toriptables2.py -f\"")
             self.set_flag = False
-
-    def on_hello(self, event):
-        print "To-do"
 
     def on_exit(self, event):
         wx.CallAfter(self.Destroy)
