@@ -1,3 +1,4 @@
+#! /usr/bin/env python2
 import wx
 import os
 
