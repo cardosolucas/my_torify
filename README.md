@@ -1,13 +1,14 @@
-# toriptables2
+# My Torify
 
 Tor Iptables script is an anonymizer that sets up iptables and tor to route all services and traffic including DNS through the Tor network.
 
 #### Dependencies:
 tor
+wxpython
 
-#### [Usage](https://drive.google.com/open?id=0B79r4wTVj-CZVy10Ujg5Vjl5WFk):
+#### Usage
 ```python
-toriptables2.py -h
+tray.py
 ```
 #### To test:
 * [What is my IP address](http://whatismyipaddress.com)
@@ -24,27 +25,3 @@ toriptables2.py -h
 ```bash
 sudo kill -HUP $(pidof tor)
 ```
-#### To automate changing Tor IP:
-* [Screenshot](https://drive.google.com/open?id=0B79r4wTVj-CZOGJadlBtWWxPWFk)
-
-* [tor_ip_switcher](https://github.com/ruped24/tor_ip_switcher#tor_ip_switcher)
-
-#### Screenshots:
-* [KaliBang Linux Rolling](https://drive.google.com/open?id=1fHtOvukq0j3dcSKk6Yw_d2L3JuXnjNav)
-
-* [Kali Linux, Rolling Edition](https://drive.google.com/open?id=0B79r4wTVj-CZMzlnRWZTcVcyUnc)
-
-* [Tor IPTables rules loaded](https://drive.google.com/open?id=0B79r4wTVj-CZT0NMV2VZRTM1REE)
-
----
-## [toriptables2g for GUI Desktop with notification](https://bitbucket.org/ruped24/toriptables2g/src)
-#### Dependencies:
-tor python-notify
-
-[Screenshot](https://drive.google.com/open?id=0B79r4wTVj-CZSEdkaTBNOVc5aUU)
-
----
-[Troubleshooting and FAQ](https://github.com/ruped24/toriptables2/wiki/Troubleshooting)
-
-[Optional Installation Methods](https://github.com/ruped24/toriptables2/wiki/Optional-Installation-methods-for-toriptables2.py)
-
