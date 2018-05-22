@@ -1,14 +1,14 @@
 # My Torify
 
-My Torify is a TrayIcon GUI to [toriptables2](https://github.com/ruped24/tor_ip_switcher)
+My Torify is a TrayIcon GUI to [toriptables2](https://github.com/ruped24/toriptables2)
 
 #### Dependencies:
 * tor
 * wxpython
 
 #### Usage (run as superuser)
-```python
-tray.py
+```bash
+python tray.py
 ```
 #### To test:
 * [What is my IP address](http://whatismyipaddress.com)
